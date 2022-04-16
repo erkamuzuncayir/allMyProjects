@@ -1,0 +1,15 @@
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.csproj.AssemblyReference.cache
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.AssemblyInfoInputs.cache
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.AssemblyInfo.cs
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.csproj.CoreCompileInputs.cache
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\bin\Debug\net6.0\toDoList.exe
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\bin\Debug\net6.0\toDoList.deps.json
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\bin\Debug\net6.0\toDoList.runtimeconfig.json
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\bin\Debug\net6.0\toDoList.dll
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\bin\Debug\net6.0\toDoList.pdb
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.dll
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\refint\toDoList.dll
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.pdb
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\toDoList.genruntimeconfig.cache
+C:\Users\erkam\Documents\code\All Projects\Csharp\toDoList\obj\Debug\net6.0\ref\toDoList.dll

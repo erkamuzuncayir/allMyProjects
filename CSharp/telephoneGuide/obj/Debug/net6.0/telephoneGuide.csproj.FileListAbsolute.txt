@@ -1,0 +1,15 @@
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.csproj.AssemblyReference.cache
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.AssemblyInfoInputs.cache
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.AssemblyInfo.cs
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.csproj.CoreCompileInputs.cache
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\bin\Debug\net6.0\telephoneGuide.exe
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\bin\Debug\net6.0\telephoneGuide.deps.json
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\bin\Debug\net6.0\telephoneGuide.runtimeconfig.json
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\bin\Debug\net6.0\telephoneGuide.dll
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\bin\Debug\net6.0\telephoneGuide.pdb
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.dll
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\refint\telephoneGuide.dll
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.pdb
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\telephoneGuide.genruntimeconfig.cache
+C:\Users\erkam\Documents\code\All Projects\CSharp\telephoneGuide\obj\Debug\net6.0\ref\telephoneGuide.dll
