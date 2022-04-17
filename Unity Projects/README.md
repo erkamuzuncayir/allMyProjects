@@ -1,5 +1,5 @@
 # Hi,
-## This is the Unity part of the my Game Development Journey. I hope you like my projects.
+## This is the Unity part of my Game Development Journey. I hope you like my projects.
 
 If you consider sending me some [feedback](https://www.linkedin.com/in/erkamuzuncayir), this makes me happy and more confident.
 
