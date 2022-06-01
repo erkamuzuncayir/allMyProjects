@@ -74,7 +74,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
             x = Mathf.Lerp(x, newXPos, Time.deltaTime * strafeSpeed);
-            moveDirection = new Vector3(x - transform.position.x, y * Time.deltaTime, runSpeed * Time.deltaTime);
+            moveDirection = new Vector3(x - transform.position.x, y * Time.deltaTime, 0);
             if (swipeUp)
             {
                 moveDirection.y = jumpPower;
