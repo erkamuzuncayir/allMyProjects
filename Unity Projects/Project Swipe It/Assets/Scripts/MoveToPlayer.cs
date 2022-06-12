@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveToPlayer : MonoBehaviour
 {
-    private float speed = 5;
+    private float gameSpeed = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,9 @@ public class MoveToPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back * Time.deltaTime * speed);
+        if(!Player.playerInstance.isPlayerDead)
+        {
+            transform.Translate(Vector3.back * Time.deltaTime * gameSpeed);
+        }
     }
 }

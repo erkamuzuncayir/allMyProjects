@@ -9,12 +9,6 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
-Assets/AssetStoreTools*
-
-#Ignore all .meta file
-*.meta
-#But not source file with postfix. which is everything but a folder
-!*.*.meta
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

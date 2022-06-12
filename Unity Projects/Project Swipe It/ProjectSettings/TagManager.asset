@@ -4,12 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - GreenObstacle
-  - BlueObstacle
-  - RedObstacle
   - RedPath
   - GreenPath
   - BluePath
+  - Obstacle
+  - RedTrigger
+  - GreenTrigger
+  - BlueTrigger
   layers:
   - Default
   - TransparentFX

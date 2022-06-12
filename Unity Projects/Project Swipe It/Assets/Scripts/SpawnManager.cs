@@ -4,40 +4,49 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject[] obstaclePrefabs;
-    public GameObject[] RoadPieces = new GameObject[5];
-    const float RoadLength = 10f;
-    const float RoadSpeed = 10f;
-    private float[] spawnPosX = new float[] { -2f, 0f, 2f };
+    public static SpawnManager spawnManagerInstance;
+    public GameObject[] obstaclePrefabs, destroyableObjects;
+    public GameObject obstacleClone;
+    public int willBeSpawnObject;
     private Vector3 spawnPos = new Vector3(0, 2, 0);
     private float startDelay = 2;
-    private float repeatRate = 2;
+    private float repeatRate = 5;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        spawnManagerInstance = this;
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
     }
 
     // Update is called once per frame
     void Update()
     {
-        foreach (GameObject road in RoadPieces)
-        {
-            Vector3 newRoadPos = road.transform.position;
-            newRoadPos.z -= RoadSpeed * Time.deltaTime;
-            if (newRoadPos.z < -RoadLength / 2)
-            {
-                newRoadPos.z += RoadLength;
-            }
-            road.transform.position = newRoadPos;
-        }
-
+        //foreach (GameObject road in roadPieces)
+        //{
+        //    Vector3 newRoadPos = road.transform.position;
+        //    newRoadPos.z -= roadSpeed * Time.deltaTime;
+        //    if (newRoadPos.z < -roadLength / 2)
+        //    {
+        //        newRoadPos.z += roadLength;
+        //    }
+        //    road.transform.position = newRoadPos;
+        //}        
     }
     void SpawnObstacle()
     {
-        spawnPos.x = spawnPosX[Random.Range(0, 3)];
-        spawnPos.z = Random.Range(5, 50);
-        int willBeSpawnObj = Random.Range(0, 3);
-        Instantiate(obstaclePrefabs[willBeSpawnObj], spawnPos, obstaclePrefabs[willBeSpawnObj].transform.rotation);
+        if(obstacleClone)
+        {
+
+            spawnPos.z = Random.Range(10, 50) + (obstacleClone.transform.position.z + 10);
+        }
+        else
+        {
+            spawnPos.z = Random.Range(15, 50);
+        }
+        willBeSpawnObject = Random.Range(0,3);
+        if (!Player.playerInstance.isPlayerDead)
+        {
+            obstacleClone = Instantiate(obstaclePrefabs[willBeSpawnObject], spawnPos, obstaclePrefabs[willBeSpawnObject].transform.rotation);
+        }
     }
 }
