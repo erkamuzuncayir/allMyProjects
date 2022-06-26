@@ -40,12 +40,18 @@ public class ColorChange : MonoBehaviour
         var triggeredObject = other.gameObject;
         collidedObjectTag = triggeredObject.tag;
         collidedObjectName = triggeredObject.name;
-        if (collidedObjectTag == "Obstacle" && canPassObstacle != collidedObjectName)
+        switch (collidedObjectTag)
         {
-            deathStatus = true;
-            PlayerController.Instance.DeathMove(deathStatus);
-            GameManager.Instance.IsPlayerDead = true;
-            _getAudioManager.DeathSounds = true;
+            case "Obstacle" when canPassObstacle != collidedObjectName:
+                deathStatus = true;
+                PlayerController.Instance.DeathMove(deathStatus);
+                GameManager.Instance.IsPlayerDead = true;
+                _getAudioManager.DeathSounds = true;
+                break;
+            case "Obstacle" when canPassObstacle == collidedObjectName:
+                scoreInColorChange += 5;
+                triggeredObject.SetActive(false);
+                break;
         }
 
         PointCalculator(triggeredObject);
